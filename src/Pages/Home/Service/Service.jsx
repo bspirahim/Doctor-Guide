@@ -7,6 +7,7 @@ const Service = () => {
                 <div style={{ width: '400px', height: '200px' }} className='relative rounded-full top-20 bg-[#FF8B42]'>
                     <img className='absolute right-0 bottom-32' src="../public/Dot Grid (1).png" alt="" />
                     <img className='absolute bottom-0 left-20 w-2/4 mx-auto' src="../public/nurse.png" alt="" />
+                    <p>Consu</p>
                 </div>
                 <div className='w-10/12 md:ms-auto'>
                     <div className='md:mt-2'>
