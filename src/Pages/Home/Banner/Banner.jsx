@@ -9,12 +9,12 @@ const Banner = () => {
             <p className='text-3xl font-bold'>Find the Care</p>
             <p className='text-3xl font-bold'>You Need</p>
             <p className='mt-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,</p>
-            <button className="btn mt-5 bg-[#FF8B42]">Make Appoinment</button>
+            <button className="btn mt-5 bg-[#FF8B42] text-white">Make Appoinment</button>
           </div>
-          <div className='w-3/4  rounded'>
+          <div className='w-3/4 mx-auto  rounded border-2 border-primary'>
             <img className='' src="/doctor.png" alt="" />
           </div>
-          <div className='w-3/4 rounded'>
+          <div className='w-3/4 mx-auto rounded border-2 border-primary'>
             <img className='' src="/nurse.png" alt="" />
           </div>
         </div>
