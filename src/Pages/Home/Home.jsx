@@ -5,6 +5,7 @@ import Schedule from './Schedule/Schedule';
 import MedicalCare from './MedicalCare/MedicalCare';
 import Statistics from './Statistics/Statistics';
 import MedicalExpart from './MedicalExpart/MedicalExpart';
+import Feedback from './Feedback/Feedback';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <MedicalCare></MedicalCare>
             <Statistics></Statistics>
             <MedicalExpart></MedicalExpart>
+            <Feedback></Feedback>
         </div>
     );
 };
