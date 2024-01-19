@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <div className='bg-[#273240]'>
-            <div className="navbar">
+            <div className="navbar max-w-screen-lg mx-auto">
                 <div className="navbar-start ">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -22,8 +22,8 @@ const Header = () => {
                             <li><a>Item 3</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">
-                        <img src="../../../public/Logo.png" alt="" />
+                    <a className="  text-xl">
+                        <img className='w-3/4' src="../../../public/Logo.png" alt="" />
                     </a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
